@@ -1,8 +1,26 @@
 aid: quantum-circuits
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantum-circuits.png
 name: Quantum Circuits
-description: Quantum Circuits is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Quantum Circuits, Inc. is a quantum computing hardware company (a Yale
+  University spinout) building superconducting quantum systems with built-in error
+  detection. Its dual-rail cavity qubits pair Quantum Error Detection (QED), Real-Time
+  Control Flow (RTCF), and Error Detection Handling (EDH), and its Aqumen Seeker QPU
+  (introduced November 2024) targets stable, repeatable, fault-tolerant quantum
+  computation. The company engages early users through a Strategic Quantum Release
+  (SQR) program that includes a simulator and access to Aqumen Seeker systems, rather
+  than a public self-serve API. Surfaced as a portfolio company of Canaan Partners
+  and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/quantum-circuits/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Quantum Computing
+- Quantum Hardware
+- Superconducting Qubits
+- Error Correction
+- Deep Tech
+- Research
 apis: []
+common:
+- type: Website
+  url: https://quantumcircuits.com/
+- type: Blog
+  url: https://quantumcircuits.com/perspective/
+- type: Support
+  url: https://quantumcircuits.com/contact-us/
+- type: TermsOfService
+  url: https://quantumcircuits.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://quantumcircuits.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
